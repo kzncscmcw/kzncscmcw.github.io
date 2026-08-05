@@ -1754,7 +1754,7 @@ conversantmedia.com, 42094, RESELLER, 03113cd04947736d
 #Bigo end
 
 #ironsource start
-OWNERDOMAIN=dishggads2025.github.io
+OWNERDOMAIN=kzncscmcw.github.io
 ironsrc.com,639879, Direct
 
 blueseasx.com, 203625, RESELLER
