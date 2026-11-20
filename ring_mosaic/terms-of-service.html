@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Service | Ring Mosaic</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fcf7f1;
+      --ink: #35283d;
+      --muted: #69586f;
+      --iris: #51379b;
+      --line: #e7dce7;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font: 17px/1.68 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: var(--iris); text-underline-offset: .16em; }
+    a:focus-visible { outline: 2px solid var(--iris); outline-offset: 4px; border-radius: 3px; }
+    .masthead { background: #fffdf9; border-bottom: 1px solid var(--line); }
+    .masthead-inner, .layout, .site-footer { max-width: 1100px; margin-inline: auto; }
+    .masthead-inner { padding: 44px 32px 36px; }
+    .brand {
+      display: inline-flex; align-items: center; gap: 11px;
+      color: var(--iris); font-weight: 760; line-height: 1.2;
+    }
+    .brand::before {
+      content: ""; width: 30px; height: 30px; border: 5px solid #7659ca;
+      border-radius: 50%; box-shadow: inset 0 0 0 3px #fff2df, inset 0 0 0 7px #e78639;
+    }
+    h1 { margin: 15px 0 0; font-size: clamp(2.25rem, 6vw, 3.65rem); line-height: 1.06; letter-spacing: -.045em; }
+    .layout { display: grid; grid-template-columns: minmax(170px, 228px) minmax(0, 1fr); gap: 35px; padding: 30px 32px 0; }
+    .contents { border: 1px solid var(--line); border-radius: 15px; background: #fffdfa; padding: 17px 16px; }
+    .contents h2 { margin: 0 0 10px; font-size: 1rem; }
+    .contents ul { list-style: none; padding: 0; margin: 0; }
+    .contents a {
+      display: block; padding-block: 5px; text-decoration: none; color: var(--muted);
+      font-size: .86rem; line-height: 1.42;
+    }
+    .contents a:hover { color: var(--iris); text-decoration: underline; }
+    article {
+      background: #fffdfa; border: 1px solid var(--line); border-radius: 19px;
+      padding: clamp(21px, 4vw, 42px); overflow-wrap: anywhere;
+    }
+    article > p:first-child { margin-top: 0; }
+    article p { margin: 0 0 1.05em; }
+    article h2 {
+      margin: 1.55em 0 .65em; padding-top: .8em; border-top: 1px solid var(--line);
+      font-size: 1.26rem; line-height: 1.3; letter-spacing: -.016em; scroll-margin-top: 1rem;
+    }
+    article ul { padding-left: 1.33em; margin: .3em 0 1.15em; }
+    article li { padding-left: .15em; margin-bottom: .52em; }
+    .site-footer {
+      display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+      gap: 10px; color: var(--muted); padding: 22px 32px 32px; font-size: .85rem;
+    }
+    @media (max-width: 700px) {
+      .masthead-inner { padding: 29px 19px 25px; }
+      .layout { grid-template-columns: 1fr; gap: 14px; padding: 15px 13px 0; }
+      .contents { padding: 13px 15px; }
+      .contents ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 9px; }
+      .site-footer { padding-inline: 15px; }
+    }
+    @media print {
+      body, .masthead, article { background: white; color: black; }
+      .layout { display: block; padding: 0; }
+      .contents, .site-footer a { display: none; }
+      article { padding: 0; border: 0; }
+      article h2 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <span class="brand">Ring Mosaic</span>
+      <h1>Terms of Service</h1>
+    </div>
+  </header>
+  <main class="layout">
+    <aside>
+      <nav class="contents" aria-labelledby="contents-heading">
+        <h2 id="contents-heading">Contents</h2>
+        <ul>
+        <li><a href="#section-1">1. Third-Party Services and External Links</a></li>
+        <li><a href="#section-2">2. Account Management and Service Suspension</a></li>
+        <li><a href="#section-3">3. Prohibited Behaviors</a></li>
+        <li><a href="#section-4">4. User Responsibilities</a></li>
+        <li><a href="#section-5">5. Data Collection and Usage</a></li>
+        <li><a href="#section-6">6. Indemnification</a></li>
+        <li><a href="#section-7">7. Limitation of Liability</a></li>
+        <li><a href="#section-8">8. Disclaimer of Warranties</a></li>
+        <li><a href="#section-9">9. Governing Law and Dispute Resolution</a></li>
+        <li><a href="#section-10">10. Changes to Terms</a></li>
+        <li><a href="#section-11">11. Contact Information</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <article>
+      <p>Please carefully read these Terms of Service (“Terms”) before accessing, downloading, or using the mobile application <strong>Ring Mosaic</strong> (the “App” or “Service”) provided by <strong>Ring Mosaic</strong> (“we,” “us,” or “our”). Your access to and use of the Service are subject to your full acceptance of these Terms. If you do not agree to any part of these Terms, you must immediately stop using the Service.</p>
+
+      <h2 id="section-1">1. Third-Party Services and External Links</h2>
+
+      <p>The Service may contain third-party components, including advertising modules, analytics tools, social sharing plugins, and payment gateways, as well as links to external websites or applications not owned or managed by Ring Mosaic. We do not control the content, security, privacy policies, or operations of any third-party services.</p>
+
+      <p>Your use of third-party services is voluntary and at your own risk. We disclaim all liability for any loss, damage, or harm caused by your use of third-party services. You are responsible for reviewing the terms and policies of any third-party services you access.</p>
+
+      <h2 id="section-2">2. Account Management and Service Suspension</h2>
+
+      <p>We reserve the absolute right to suspend, restrict, or terminate your access to the Service at any time, with or without notice, if:</p>
+
+      <ul>
+      <li>You violate these Terms or our <a href="privacy.html">Privacy Policy</a>;</li>
+      <li>You engage in fraud, abuse, or illegal behavior;</li>
+      <li>We need to perform technical maintenance, fix security issues, or comply with legal requirements.</li>
+      </ul>
+
+      <p>After termination or suspension, you must stop using the Service and delete all copies of the App. Sections related to intellectual property, indemnification, liability, disclaimers, and dispute resolution will remain in effect.</p>
+
+      <h2 id="section-3">3. Prohibited Behaviors</h2>
+
+      <p>You agree not to do any of the following when using the Service:</p>
+
+      <ul>
+      <li>Violate any applicable local, national, or international laws or regulations;</li>
+      <li>Interfere with, damage, or overload the Service’s servers, networks, or systems;</li>
+      <li>Reverse-engineer, decompile, modify, or copy the App or its source code without permission;</li>
+      <li>Create fake, duplicate, or unauthorized accounts;</li>
+      <li>Use cheats, hacks, bots, scripts, or automated tools to manipulate gameplay, rewards, or rankings;</li>
+      <li>Exploit bugs, glitches, or vulnerabilities to gain unfair advantages;</li>
+      <li>Send spam, malware, harmful content, or harassing messages;</li>
+      <li>Harass, threaten, or discriminate against other users;</li>
+      <li>Sell, trade, or transfer your account or in-app items without our written approval.</li>
+      </ul>
+
+      <p>Violations may result in account suspension, permanent ban, loss of in-app assets, or legal action.</p>
+
+      <h2 id="section-4">4. User Responsibilities</h2>
+
+      <p>You agree to:</p>
+
+      <ul>
+      <li>Keep your account login information secure and notify us immediately of unauthorized use;</li>
+      <li>Provide true, accurate, and up-to-date account information;</li>
+      <li>Use the Service only for personal, non-commercial entertainment;</li>
+      <li>Respect all intellectual property rights of Ring Mosaic and third parties;</li>
+      <li>Cooperate with our investigations of potential violations.</li>
+      </ul>
+
+      <p>We may monitor user activity to prevent abuse. If violations are found, we may restrict features, revoke rewards, or block device identifiers.</p>
+
+      <h2 id="section-5">5. Data Collection and Usage</h2>
+
+      <p>When you use the Service, we may collect personal and non-personal information, such as your email, device data, and usage statistics. By using the Service, you consent to our collection and use of data as described in our <a href="privacy.html">Privacy Policy</a>.</p>
+
+      <p>We use your information only to operate, improve, and secure the Service. We will not share your personal data with third parties except:</p>
+
+      <ul>
+      <li>To provide requested features;</li>
+      <li>To comply with legal obligations;</li>
+      <li>With your explicit consent;</li>
+      <li>In connection with a corporate transaction.</li>
+      </ul>
+
+      <h2 id="section-6">6. Indemnification</h2>
+
+      <p>You agree to defend, indemnify, and hold harmless Ring Mosaic, its officers, employees, and partners from any claims, damages, losses, or expenses (including legal fees) arising from:</p>
+
+      <ul>
+      <li>Your use or misuse of the Service;</li>
+      <li>Your violation of these Terms;</li>
+      <li>Your infringement of third-party rights.</li>
+      </ul>
+
+      <h2 id="section-7">7. Limitation of Liability</h2>
+
+      <p>To the fullest extent permitted by law, Ring Mosaic will not be liable for any direct, indirect, incidental, special, or consequential damages, including loss of data, profits, or goodwill, arising from:</p>
+
+      <ul>
+      <li>Service interruptions or errors;</li>
+      <li>Third-party actions or security breaches;</li>
+      <li>Loss of in-app progress, items, or rewards;</li>
+      <li>Your reliance on information from the Service.</li>
+      </ul>
+
+      <p>This limitation applies even if we have been advised of the possibility of such damages.</p>
+
+      <h2 id="section-8">8. Disclaimer of Warranties</h2>
+
+      <p>The Service is provided “as is” and “as available” without warranties of any kind, express or implied. We disclaim all warranties, including merchantability, fitness for a particular purpose, and non-infringement.</p>
+
+      <p>We do not warrant that the Service will be uninterrupted, error-free, secure, or compatible with all devices. You use the Service at your own risk.</p>
+
+      <h2 id="section-9">9. Governing Law and Dispute Resolution</h2>
+
+      <p>These Terms are governed by the laws of the State of Arizona, United States, excluding conflict of law rules.</p>
+
+      <p>Any dispute shall first be resolved through good-faith negotiation. If unresolved within 45 days, the dispute shall be settled by binding arbitration in Phoenix, Arizona, in accordance with AAA Commercial Arbitration Rules. The arbitration will be conducted in English.</p>
+
+      <p>You and Ring Mosaic waive the right to a jury trial and class-action proceedings.</p>
+
+      <h2 id="section-10">10. Changes to Terms</h2>
+
+      <p>We may update these Terms from time to time. For material changes, we will notify you at least 30 days in advance via in-app notice or email. Your continued use of the Service after the effective date constitutes acceptance of the updated Terms.</p>
+
+      <p>The latest version of the Terms will be available in the App at all times.</p>
+
+      <h2 id="section-11">11. Contact Information</h2>
+
+      <p>If you have questions or requests regarding these Terms, please contact us at:</p>
+
+      <p><a href="mailto:kzncscmcw@outlook.com">kzncscmcw@outlook.com</a></p>
+
+      <p>We will respond to your inquiry within 10 business days.</p>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <span>© 2026 Ring Mosaic. All rights reserved.</span>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>
